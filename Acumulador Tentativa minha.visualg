@@ -1,0 +1,33 @@
+algoritmo "acumulador"
+
+var
+   i, idade, acumuladorIdade: inteiro
+   letra: caractere
+   resposta: logico
+
+inicio
+
+   acumuladorIdade <- 0
+
+   para i de 1 ate 2 faca
+
+      escreva("Digite sua idade: ")
+      leia(idade)
+
+      acumuladorIdade <- acumuladorIdade + idade
+
+      escreva("Digite um caractere: ")
+      leia(letra)
+
+      escreva("Digite verdadeiro ou falso: ")
+      leia(resposta)
+
+      escreval("Idade: ", idade)
+      escreval("Caractere: ", letra)
+      escreval("Lógico: ", resposta)
+
+   fimpara
+
+   escreval("Soma das idades: ", acumuladorIdade)
+
+fimalgoritmo

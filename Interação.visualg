@@ -1,0 +1,10 @@
+algoritmo "interacao"
+
+
+
+inicio
+ escreval("linha 1")
+ escreval("linha 2")
+ escreval("linha 3")
+
+fimalgoritmo
