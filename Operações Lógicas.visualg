@@ -1,0 +1,26 @@
+algoritmo "maioridade"
+
+var
+   idade: inteiro
+   maioridadeCivil: inteiro
+   maioridadePenal: inteiro
+
+inicio
+   idade <- 18
+   maioridadeCivil <- 21
+   maioridadePenal <- 18
+
+   escreval("Idade: ", idade)
+   escreval("Maioridade civil: ", maioridadeCivil)
+   escreval("Maioridade penal: ", maioridadePenal)
+   escreval("")
+
+   escreval("Atingiu a maioridade civil? ", idade >= maioridadeCivil)
+   escreval("Atingiu a maioridade penal? ", idade >= maioridadePenal)
+
+   escreval("E maior de idade para ambas? ", idade >= maioridadeCivil E idade >= maioridadePenal)
+   escreval("E maior de idade para alguma delas? ", idade >= maioridadeCivil OU idade >= maioridadePenal)
+
+   escreval("E menor de idade para ambas? ", NAO(idade >= maioridadeCivil E idade >= maioridadePenal))
+
+fimalgoritmo
